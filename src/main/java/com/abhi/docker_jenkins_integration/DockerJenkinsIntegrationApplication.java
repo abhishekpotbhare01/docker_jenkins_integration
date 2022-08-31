@@ -15,6 +15,7 @@ public class DockerJenkinsIntegrationApplication {
 
     public static void main(String[] args) {
         logger.info("Application executed");
+        logger.info("Application executed 2 line");
         SpringApplication.run(DockerJenkinsIntegrationApplication.class, args);
     }
 }
