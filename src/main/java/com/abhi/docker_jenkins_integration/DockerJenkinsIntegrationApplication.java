@@ -19,5 +19,6 @@ public class DockerJenkinsIntegrationApplication {
         SpringApplication.run(DockerJenkinsIntegrationApplication.class, args);
         logger.info("Hello ABhishek");
         logger.info("Hello ABhishek 01");
+        logger.info("Hello ABhishek 02");
     }
 }
