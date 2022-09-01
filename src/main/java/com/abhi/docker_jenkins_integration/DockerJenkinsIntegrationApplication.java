@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DockerJenkinsIntegrationApplication {
     public static Logger logger = LoggerFactory.getLogger(DockerJenkinsIntegrationApplication.class);
 
-    public  init() {
+    public void init() {
         logger.info("Application Started");
     }
 
